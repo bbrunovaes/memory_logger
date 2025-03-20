@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Author: Bruno Novaes
+# Date Created: 19/03/2025
+# Last Modified: 19/03/2025
+
+# Description
+# Script needs to check if the log and append to it if it does so you don’t lose
+existing data. If the log does not exist, then the script must create it along with its
+containing folder, if necessary.
+
+# Usage
+# memory_logger
+
 if [ -d $HOME/performance ]; then
 	echo "The folder PERFORMANCE already exists!"
 else
