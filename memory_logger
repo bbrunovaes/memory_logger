@@ -6,8 +6,8 @@
 
 # Description
 # Script needs to check if the log and append to it if it does so you don’t lose
-existing data. If the log does not exist, then the script must create it along with its
-containing folder, if necessary.
+# existing data. If the log does not exist, then the script must create it along with its
+# containing folder, if necessary.
 
 # Usage
 # memory_logger
