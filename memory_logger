@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d $HOME/performance ]; then
+	echo "The folder PERFORMANCE already exists!"
+else
+	mkdir -p $HOME/performance 
+	
+	echo "The folder PERFORMANCE has been created!"
+fi	
+
+free >> $HOME/performance/memory.log
